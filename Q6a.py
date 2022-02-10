@@ -27,9 +27,9 @@ H = np.array([[1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1],
               [0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1]])
 
 #test, using the example x1 which is mentioned before as r
-r = [1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+r = [1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0]
 e,x=channelDecode(H,r)
-print("When r^T = [1 1 1 1 1 0 0 0 0 1 0 0 0 0 0]")
+print("When r^T = [1 1 1 1 1 1 1 0 0 1 0 0 0 0 0]")
 print("e:")
 print(e)
 print("x:")
