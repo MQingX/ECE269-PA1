@@ -14,7 +14,7 @@ def channelDecode(H,r):
 def buildTable(H):
     row_h, col_h =H.shape
     E = np.zeros((col_h,(col_h+1)))
-    #`1-norm at most one --- For each row i, assume that E_ii==1
+    #`1-norm at most one --- Assume that E_ii==1
     for i in range(0,col_h):
         E[i,i]=1
     S=np.dot(H, E)
